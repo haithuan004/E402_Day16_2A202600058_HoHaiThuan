@@ -2,8 +2,6 @@
 
 ## Members
 - Hồ Hải Thuận — BA / Product Lead
-- Nguyễn Văn A — AI Engineer
-- Trần Thị B — Backend Engineer
 
 ---
 
