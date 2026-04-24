@@ -1,4 +1,3 @@
-
 # 🅑 PLAN B — Upgraded Plan (B2B: Viện dưỡng lão & Bệnh viện tư)
 
 ## Members
@@ -123,7 +122,29 @@ If we deploy **50 lần** in **viện dưỡng lão / bệnh viện**, the follo
 
 ---
 
-## 8. Self-assessment before Day 17
+## 8. Scope Definition (MVP v1.0)
+
+| Category | Nội dung |
+|---|---|
+| **In-Scope** | ✅ Phát hiện ngã real-time từ camera IP hiện có (RTSP stream) |
+| | ✅ Cảnh báo tức thì đến điều dưỡng trực qua app mobile (push notification < 30 giây) |
+| | ✅ Dashboard web cho quản lý: xem lịch sử sự cố, timeline, clip ngắn |
+| | ✅ Tự động tạo báo cáo sự cố (thời gian, phòng, loại sự cố) theo định dạng PDF |
+| | ✅ Hỗ trợ tối đa 20 camera/cơ sở trong phiên bản pilot |
+| **Out-of-Scope** | ⏳ Nhận diện danh tính bệnh nhân (face recognition) — bảo lưu v2 |
+| | ⏳ Tích hợp với hệ thống HIS/EMR bệnh viện — cần API riêng từng cơ sở |
+| | ⏳ Phân tích dáng đi (gait analysis) để dự báo nguy cơ ngã — cần thêm dữ liệu |
+| | ⏳ App mobile cho gia đình bệnh nhân — không phải người dùng chính ở segment B2B |
+| | ⏳ Hỗ trợ camera fisheye / PTZ — phức tạp về góc nhìn, để sau |
+| **Non-Goals** | 🚫 Thay thế điều dưỡng — sản phẩm là công cụ hỗ trợ, không phải tự động hóa toàn bộ |
+| | 🚫 Cấp phép thiết bị y tế (Medical Device) — tránh overhead pháp lý trong MVP |
+| | 🚫 Lưu trữ video 24/7 toàn bộ (không phải giải pháp cloud storage) |
+| | 🚫 Phát hiện các sự cố ngoài ngã: đánh nhau, trốn khỏi phòng — out of model scope |
+| | 🚫 Hỗ trợ đa ngôn ngữ (ngoài tiếng Việt) trong MVP |
+
+---
+
+## 9. Self-assessment before Day 17
 
 Trong 6 mắt xích (Idea / Customer / Need / Strategy / Moat / Market Size), mắt xích nào yếu nhất?
 

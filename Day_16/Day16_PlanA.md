@@ -2,9 +2,6 @@
 
 ## Members
 - Hồ Hải Thuận — BA / Product Lead
-- Nguyễn Văn A — AI Engineer
-- Trần Thị B — Backend Engineer
-
 ---
 
 # 🅐 PLAN A — Original Plan (B2C: Hộ gia đình)
@@ -15,7 +12,7 @@
 > Dùng AI nhận diện hành động (action recognition) để phát hiện người cao tuổi bị ngã tại nhà và gửi cảnh báo cho gia đình.
 
 **Reframed as a product opportunity:**
-> Hầu hết gia đình Việt Nam có người cao tuổi sống một mình đều dựa vào camera thông thường — nhưng camera thông thường không tự phân tích hành vi, khiến gia đình không nhận được cảnh báo kịp thời khi sự cố xảy ra. Chúng tôi tin rằng nếu tích hợp mô hình AI nhận diện hành động (fall detection) vào camera IP hiện có, chúng tôi có thể cung cấp một lớp bảo vệ chủ động — giúp gia đình an tâm mà không cần theo dõi liên tục và không cần mua phần cứng mới.
+> Hầu hết gia đình Việt Nam có người cao tuổi sống một mình đều dựa vào camera thông thường — nhưng camera thông thường không tự phân tích hành vi, khiến gia đình không nhận được cảnh báo kịp thời khi sự cố xảy ra. Tôi tin rằng nếu tích hợp mô hình AI nhận diện hành động (fall detection) vào camera IP hiện có, tôi có thể cung cấp một lớp bảo vệ chủ động — giúp gia đình an tâm mà không cần theo dõi liên tục và không cần mua phần cứng mới.
 
 ---
 
@@ -122,7 +119,7 @@ If we deploy **500 lần** in **hộ gia đình Việt Nam**, the following impr
 > Một lớp AI thông minh gắn lên camera giám sát hiện có, chuyên phát hiện ngã và hành vi bất thường của người cao tuổi, gửi cảnh báo tức thì đến gia đình.
 
 **What we are not / not yet:**
-> Chúng tôi không phải thiết bị phần cứng mới, không phải dịch vụ y tế khẩn cấp, và chưa phải nền tảng chăm sóc sức khỏe toàn diện.
+> Tôi không phải thiết bị phần cứng mới, không phải dịch vụ y tế khẩn cấp, và chưa phải nền tảng chăm sóc sức khỏe toàn diện.
 
 ---
 
@@ -130,9 +127,9 @@ If we deploy **500 lần** in **hộ gia đình Việt Nam**, the following impr
 
 Trong 6 mắt xích (Idea / Customer / Need / Strategy / Moat / Market Size), mắt xích nào yếu nhất?
 
-> **Customer** — Chúng tôi chưa xác nhận ai thực sự là người ra quyết định mua (con cái hay người cao tuổi?) và mức độ lo lắng có đủ để tạo hành động mua không.
+> **Customer** — Tôi chưa xác nhận ai thực sự là người ra quyết định mua (con cái hay người cao tuổi?) và mức độ lo lắng có đủ để tạo hành động mua không.
 
-Open questions chúng tôi muốn khám phá thêm ở Day 17:
+Open questions tôi muốn khám phá thêm ở Day 17:
 
 1. Người cao tuổi có chấp nhận bị camera theo dõi liên tục không (privacy concern)?
 2. Kênh phân phối nào hiệu quả: B2C trực tiếp hay qua đại lý camera/nhà thuốc?
